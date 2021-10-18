@@ -284,7 +284,7 @@ body{
                 }
             }
             .btn__main:hover{
-                background-color: #303948;
+                background-color: #14213D;
                 color: #FAFAFA;
                 @media(max-width: 769px){
                     background-color: #FAFAFA;
@@ -1126,6 +1126,99 @@ body{
             }
             @media (max-width: 425px){
                 padding: 10px;
+            }
+        }
+    }
+}
+
+/*-----PRODUCTS-----*/
+.products{
+    display: block;
+    margin-top: 200px;
+    .products__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .products__info{
+            .text{
+                font-size: 18px;
+                color: #303948;
+            }
+            .title{
+                font-size: 36px;
+                font-family: 'Gordita Medium';
+                color: #14213D;
+                margin: 20px 0;
+            }
+            .subtitle{
+                font-size: 18px;
+                color: #59616D;
+            }
+        }
+        .products__btn{
+            .arrow-left{
+                width: 80px;
+                height: 80px;
+                background-color: #14213D;
+                border-radius: 40%;
+                margin-right: 20px;
+                transition-duration: .25s;
+            }
+            .arrow-left:hover{
+                background-color: darkgrey;
+            }
+            .arrow-right{
+                width: 80px;
+                height: 80px;
+                background-color: #14213D;
+                border-radius: 40%;
+                margin-left: 20px;
+                transition-duration: .25s;
+            }
+            .arrow-right:hover{
+                background-color: darkgrey;
+            }
+        }
+    }
+    .products__slider{
+        overflow: hidden;
+        margin-top: 95px;
+        .products__list{
+            position: relative;
+            display: flex;
+            text-align: center;
+            transition: all ease 1s;
+            .products__item{
+                display: block;
+                .img-item{
+                    margin-bottom: 36px;
+                }
+                .title{
+                    font-size: 36px;
+                    font-family: "Gordita Medium";
+                    color: #14213D;
+                    margin-bottom: 20px;
+                }
+                .subtitle{
+                    font-size: 18px;
+                    color: #59616D;
+                    margin-bottom: 36px;
+                }
+                .btn__item{
+                    font-family: "Gordita Medium";
+                    width: 262px;
+                    height: 67px;
+                    background-color: #14213D;
+                    border-radius: 35px;
+                    color: #FAFAFA;
+                    font-size: 22px;
+                    transition-duration: .25s;
+                }
+                .btn__item:hover{
+                    background-color: #FAFAFA;
+                    color: #303948;
+                    border: 2px solid #303948;
+                }
             }
         }
     }
